@@ -16,6 +16,8 @@
 
 #pragma once
 
+#include <netinet/in.h> // Needs to be before non-std headers, as they are missing type definitions
+
 #include "ros/ros.h"
 #include "simple_message/simple_message.h"
 #include "simple_message/socket/simple_socket.h"
